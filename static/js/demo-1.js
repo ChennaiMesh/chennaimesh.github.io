@@ -63,7 +63,7 @@
 
         // assign a circle to each point
         for(var i in points) {
-            var c = new Circle(points[i], 2+Math.random()*2, 'rgba(0,0,0,1)');
+            var c = new Circle(points[i], 2+Math.random()*2, 'rgba(255,255,255,0.3)');
             points[i].circle = c;
         }
     }
@@ -153,7 +153,7 @@
             ctx.beginPath();
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(p.closest[i].x, p.closest[i].y);
-            ctx.strokeStyle = 'rgba(0,0,0,'+ p.active+')';
+            ctx.strokeStyle = 'rgba(156,217,249,'+ p.active+')';
             ctx.stroke();
         }
     }
@@ -172,7 +172,7 @@
             if(!_this.active) return;
             ctx.beginPath();
             ctx.arc(_this.pos.x, _this.pos.y, _this.radius, 0, 2 * Math.PI, false);
-            ctx.fillStyle = 'rgba(0,0,0,'+ _this.active+')';
+            ctx.fillStyle = 'rgba(156,217,249,'+ _this.active+')';
             ctx.fill();
         };
     }
@@ -181,5 +181,5 @@
     function getDistance(p1, p2) {
         return Math.pow(p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2);
     }
-
+    
 })();
