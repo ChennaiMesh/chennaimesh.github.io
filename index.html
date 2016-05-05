@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
@@ -8,26 +8,115 @@
 		<meta name="description" content="Examples for creative website header animations using Canvas and JavaScript" />
 		<meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript" />
 		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="static/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="static/css/style.css" />
+		<!--<link rel="shortcut icon" href="static/img/favicon.ico">
+	 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="static/css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="static/css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="static/css/component.css" />
-		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="static/css/component.css" />-->
+		<link href='https://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
 		<!--[if IE]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 	</head>
 	<body>
-		<div class="container demo-1">
-			<div class="content">
-				<div id="large-header" class="large-header">
-					<canvas id="demo-canvas"></canvas>
-					<h1 class="main-title"><a href="https://www.facebook.com/groups/963155543798989/">Chennai Mesh Network Community</a><span class="thin"></span></h1>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<nav role="navigation" class="navbar navbar-default">
+						<div class="navbar-header">
+							<button data-toggle="collapse" data-target="#navbarCollapse" class="navbar-toggle">
+								<span class="sr-only">Toggle</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a href="#" class="navbar-brand">Chennai Mesh Network Community</a>
+						</div>
+						<div id="navbarCollapse" class="collapse navbar-collapse">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about-us.html">About Us</a></li>
+								<li><a href="contact-us.html">Contact Us</a></li>
+							</ul>
+						</div>
+					</nav>
 				</div>
-			</div><!-- /container -->
-		<script src="static/js/TweenLite.min.js"></script>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="jumbotron">
+						<p class="text-justify">Chennai Mesh Network is an initiative by activits with a goal to build a Peer-2-Peer network, in order to empower people in having a Internet the way it was meant to be with no centralization. This is a community of people, by the people and for the people.</p>
+					</div>
+				</div>
+			</div>
+            <div class="row">
+                <div class="col-sm-12">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+					  	<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+					  	</ol>
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="jumbotron">
+											<h2>What is a Mesh Network?</h2>
+											<p class="text-justify">
+												A Mesh Network in simple terms is an interconnection of nodes (like wireless routers), where each node play a role in sending message from one node to another in a decentralized way...<a href="what-is-mesh.html">read more</a>
+											</p>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<img src="static/img/fully-connected-mesh.png" alt="Full Mesh">
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+							  	<div class="row">
+									<div class="col-sm-6">
+										<div class="jumbotron">
+											<h2>Why we need a mesh?</h2>
+											<p class="text-justify">
+												Internet in its current form is too centralized putting power in the hands view and thats where Mesh Network comes in to put the power where it should be, that is we the people...<a href="why-mesh.html">read more</a>
+											</p>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<img src="static/img/network-topology-mesh.png" alt="Full Mesh">
+									</div>
+								</div>
+							</div>
+						</div>
+
+					  	<!-- Left and right controls -->
+					  	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+					 	</a>
+					  	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+					  	</a>
+					</div>
+                </div>
+            </div>
+            <hr/>
+		</div>
+		<!-- container -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<!--<script src="static/js/TweenLite.min.js"></script>
 		<script src="static/js/EasePack.min.js"></script>
 		<script src="static/js/rAF.js"></script>
-		<script src="static/js/demo-1.js"></script>
+		<script src="static/js/demo-1.js"></script>-->
 	</body>
 </html>
