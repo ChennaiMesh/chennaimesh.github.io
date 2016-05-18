@@ -93,8 +93,8 @@ pre code {
 }
 /* ======= Header ======= */
 .header {
-  padding: 10px 0;
-  background: #17baef;
+  padding: 2px 0;
+  background: #f05f40;
   color: #fff;
   position: fixed;
   width: 100%;
@@ -107,7 +107,7 @@ pre code {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 }
 .header.navbar-fixed-top .logo a {
-  color: #17baef;
+  color: #F05F40;
 }
 .header.navbar-fixed-top .main-nav .nav .nav-item a {
   color: #666;
@@ -150,11 +150,11 @@ pre code {
   font-family: 'Montserrat', sans-serif;
 }
 .header .main-nav .nav .nav-item.active a {
-  color: #17baef;
+  color: #F05F40;
   background: none;
 }
 .header .main-nav .nav .nav-item a {
-  color: #0a7396;
+  color: #000000;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
@@ -182,7 +182,7 @@ pre code {
 }
 /* ======= Promo Section ======= */
 .promo {
-  background: #17baef;
+  background: #f05f40;
   color: #fff;
   padding-top: 150px;
 }
@@ -235,7 +235,7 @@ pre code {
 /* ======= About Section ======= */
 .about {
   padding: 80px 0;
-  background: #f5f5f5;
+  background: #fff;
 }
 .about .title {
   color: #074f66;
@@ -296,7 +296,7 @@ pre code {
 /* ======= Docs Section ======= */
 .docs {
   padding: 80px 0;
-  background: #f5f5f5;
+  background: #fff;
 }
 .docs .title {
   color: #074f66;
@@ -336,7 +336,7 @@ pre code {
 /* ======= License Section ======= */
 .license {
   padding: 80px 0;
-  background: #f5f5f5;
+  background: #fff;
 }
 .license .title {
   margin-top: 0;
@@ -414,7 +414,7 @@ pre code {
 /* ======= Contact Section ======= */
 .contact {
   padding: 80px 0;
-  background: #17baef;
+  background: #f05f40;
   color: #fff;
 }
 .contact .contact-inner {
@@ -521,7 +521,7 @@ pre code {
 }
 .contact .social-icons a {
   display: inline-block;
-  background: #0c86ae;
+  background: #F05F40;
   width: 48px;
   height: 48px;
   text-align: center;
@@ -622,7 +622,7 @@ a.read-more-btn{
     text-decoration:none;
     width:100px;
     height:50px;
-    border:2px solid #F5F5F5;
+    border:2px solid #fff;
     background-color:#074F66;
     color:#FFFFFF;
     padding:5px;
@@ -631,13 +631,13 @@ a.read-more-btn{
 }
 
 a.read-more-btn:hover{
-    background-color:#F5F5F5;
+    background-color:#fff;
     color:#074F66;
     border:2px solid #074F66;
 }   
 
 .about-modified{
-    background:#17baef;
+    background:#f05f40;
 }
 
 .about-modified a.read-more-btn{
