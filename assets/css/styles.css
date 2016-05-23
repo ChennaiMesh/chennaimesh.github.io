@@ -622,7 +622,6 @@ a.read-more-btn{
     text-decoration:none;
     width:100px;
     height:50px;
-    border:2px solid #fff;
     background-color:#074F66;
     color:#FFFFFF;
     padding:5px;
@@ -638,10 +637,6 @@ a.read-more-btn:hover{
 
 .about-modified{
     background:#f05f40;
-}
-
-.about-modified a.read-more-btn{
-    border:2px solid #17baef;
 }
 
 a.anchor-special{
@@ -716,13 +711,13 @@ a.anchor-special:hover,a.anchor-special:active{
 	color: #FFFFFF;
 }
 
-ul.social-icons i{
+ul.social-icons i.i-special {
     width:30px;
     height:30px;
     padding-top:10px;
 }
 
-ul.social-icons i:hover{
+ul.social-icons i.i-special:hover{
     border-radius:100px;
     background-color:#FFFFFF;
 }
