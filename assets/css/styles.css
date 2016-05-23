@@ -655,3 +655,78 @@ a.anchor-special:link,a.anchor-special:visited{
 a.anchor-special:hover,a.anchor-special:active{
     color:#17baef;
 }
+
+.team-member img{
+	position:absolute;
+	max-width:100% !important;
+	max-height:100% !important;
+	top:0;
+	bottom:0;
+	margin:auto;
+}
+
+.team p.member-description{
+	margin-top:5px;
+	padding:10px;
+	color:#074F66;
+}
+
+.team p.member-name{
+	margin-top:5px;
+	font-size:16px;
+	font-weight:bold;
+	color:#074F66;
+}
+
+.team p.member-specialization{
+	margin-top:5px;
+	font-style:italic;
+	color:#074F66;
+}
+
+.team-member{
+	position:relative;
+	margin:auto;
+	width:150px;
+	height:150px;
+	border-radius:100%;
+	overflow:hidden;
+	background-color:#FFFFFF;
+}
+
+.team{
+    position:inline-block;
+    float:left;
+	width:235px;
+	height:370px;
+	padding-top:20px;
+	margin-top:30px;
+	margin-right:30px;
+	margin-left:10px;
+	box-shadow: 5px 5px 10px gray;
+	transition: background-color 0.2s ease-in,color 0.2s ease-in;
+}
+
+.team:hover{
+	background-color:#074F66;
+	color: #FFFFFF;
+}
+
+.team:hover p.member-specialization,.team:hover p.member-name,.team:hover p.member-description{
+	color: #FFFFFF;
+}
+
+ul.social-icons i{
+    width:30px;
+    height:30px;
+    padding-top:10px;
+}
+
+ul.social-icons i:hover{
+    border-radius:100px;
+    background-color:#FFFFFF;
+}
+
+h2.title{
+    margin-bottom:10px !important;
+}
